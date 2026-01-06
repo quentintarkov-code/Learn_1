@@ -4,8 +4,10 @@ using namespace std;
 
 int main() {
     int length, width;
-    length = 5;
-    width = 10;
+    cout << "Enter length: ";
+    cin >> length;
+    cout << "Enter width: ";
+    cin >> width;
     cout << "Length is: " << length << endl;
     cout << "Width is: " << width << endl;
     cout << "Area is: " << length * width << endl;
