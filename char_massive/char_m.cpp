@@ -18,4 +18,14 @@ int main() {
     cout << "You entered: " << userCharArr << endl;
     //if user inputs more than 4 characters only first 4 will be stored, rest will be ignored without error.
     return 0;
+
+    char anotherArr[10][5];// this is array of 10 strings each can hold 89 characters + null terminator
+    for(int i=0;i<10;i++){  
+        for (int y= 0; y < 5; y++)
+        {
+            //line-by-line filling of 2D char array
+            cin>>anotherArr[i][y];
+        }
+        
+    }                                   
 }
