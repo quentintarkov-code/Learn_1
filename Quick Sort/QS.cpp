@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// pivot is chosen as the last element
 void quickSort(int* arr, int low, int high) {
     if (low < high) {
         int pivot = arr[high];
